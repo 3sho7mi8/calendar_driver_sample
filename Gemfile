@@ -4,4 +4,10 @@ source "https://rubygems.org"
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
-# gem "rails"
+# System
+gem 'pry'
+gem 'pry-byebug'
+gem 'dotenv'
+
+# Google
+gem 'google-api-client'
